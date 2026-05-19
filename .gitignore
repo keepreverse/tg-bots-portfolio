@@ -28,6 +28,8 @@ data/
 # Allow versioned seed data
 !booking-bot/data/
 !booking-bot/data/*.json
+!quiz-bot/data/
+!quiz-bot/data/*.json
 
 .idea/
 .vscode/
