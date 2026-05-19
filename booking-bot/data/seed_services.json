@@ -1,0 +1,112 @@
+[
+  {
+    "slug": "tattoo_minimal",
+    "category": "tattoo",
+    "emoji": "🖤",
+    "name": "Тату-минимал (до 5×5 см)",
+    "description": "Маленькая графика — линия, символ, надпись, мини-силуэт.",
+    "duration_minutes": 30,
+    "price_rub": 5000,
+    "sort_order": 10
+  },
+  {
+    "slug": "tattoo_medium",
+    "category": "tattoo",
+    "emoji": "🎨",
+    "name": "Тату средний (до 15×15 см)",
+    "description": "Цветная или чёрно-серая картинка средних размеров.",
+    "duration_minutes": 120,
+    "price_rub": 14000,
+    "sort_order": 20
+  },
+  {
+    "slug": "tattoo_sleeve",
+    "category": "tattoo",
+    "emoji": "🌹",
+    "name": "Тату крупный (рукав, сессия)",
+    "description": "Одна сессия рукава / большого проекта. Полная стоимость рассчитывается отдельно.",
+    "duration_minutes": 240,
+    "price_rub": 25000,
+    "sort_order": 30
+  },
+  {
+    "slug": "tattoo_cover_up",
+    "category": "tattoo",
+    "emoji": "🔁",
+    "name": "Перекрытие старой тату (сессия)",
+    "description": "Cover-up: маскирующий рисунок поверх существующей тату.",
+    "duration_minutes": 180,
+    "price_rub": 18000,
+    "sort_order": 40
+  },
+  {
+    "slug": "tattoo_consult",
+    "category": "tattoo",
+    "emoji": "📐",
+    "name": "Консультация эскиза",
+    "description": "Обсуждаем идею, размер, расположение, согласуем эскиз. Бесплатно.",
+    "duration_minutes": 30,
+    "price_rub": 0,
+    "sort_order": 50
+  },
+  {
+    "slug": "piercing_lobe",
+    "category": "piercing",
+    "emoji": "👂",
+    "name": "Прокол мочки уха",
+    "description": "Стерильный прокол одноразовой иглой, базовое украшение в комплекте.",
+    "duration_minutes": 30,
+    "price_rub": 2000,
+    "sort_order": 110
+  },
+  {
+    "slug": "piercing_cartilage",
+    "category": "piercing",
+    "emoji": "👂",
+    "name": "Прокол хряща уха (хеликс / трагус)",
+    "description": "Прокол иглой, украшение из импланта-стали или титана.",
+    "duration_minutes": 30,
+    "price_rub": 3000,
+    "sort_order": 120
+  },
+  {
+    "slug": "piercing_nostril",
+    "category": "piercing",
+    "emoji": "👃",
+    "name": "Прокол крыла носа",
+    "description": "Стандартный nostril, лабретта или колечко.",
+    "duration_minutes": 30,
+    "price_rub": 2500,
+    "sort_order": 130
+  },
+  {
+    "slug": "piercing_septum",
+    "category": "piercing",
+    "emoji": "👃",
+    "name": "Прокол септума",
+    "description": "Подковка или кликер на выбор.",
+    "duration_minutes": 30,
+    "price_rub": 3500,
+    "sort_order": 140
+  },
+  {
+    "slug": "piercing_lip",
+    "category": "piercing",
+    "emoji": "💋",
+    "name": "Прокол губы",
+    "description": "Лабретта или колечко на выбор.",
+    "duration_minutes": 30,
+    "price_rub": 3500,
+    "sort_order": 150
+  },
+  {
+    "slug": "piercing_consult",
+    "category": "piercing",
+    "emoji": "📐",
+    "name": "Консультация по пирсингу",
+    "description": "Подбираем место, украшение, проговариваем уход. Бесплатно.",
+    "duration_minutes": 30,
+    "price_rub": 0,
+    "sort_order": 170
+  }
+]

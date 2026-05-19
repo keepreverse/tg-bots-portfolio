@@ -1,0 +1,41 @@
+[project]
+name = "lead-bot"
+version = "0.1.0"
+description = "Telegram bot for collecting customer leads via an FSM survey."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "aiogram>=3.13,<4",
+    "aiosqlite>=0.20",
+    "pydantic-settings>=2.6",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8",
+    "pytest-asyncio>=0.24",
+    "ruff>=0.7",
+]
+
+[project.scripts]
+lead-bot = "lead_bot.__main__:main"
+
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B", "UP", "RUF"]
+# RUF001/002/003: false positives on Russian Cyrillic strings (the bot UI is in Russian)
+ignore = ["E501", "RUF001", "RUF002", "RUF003"]

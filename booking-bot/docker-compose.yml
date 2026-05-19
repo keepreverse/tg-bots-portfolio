@@ -1,0 +1,9 @@
+services:
+  booking-bot:
+    build: .
+    container_name: booking-bot
+    restart: unless-stopped
+    env_file:
+      - .env
+    volumes:
+      - ./data:/app/data
